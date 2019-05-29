@@ -1,0 +1,14 @@
+U:\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+U:\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+U:\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+U:\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp2.1\GradeBook.Tests.deps.json
+U:\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp2.1\GradeBook.Tests.runtimeconfig.json
+U:\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp2.1\GradeBook.Tests.runtimeconfig.dev.json
+U:\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp2.1\GradeBook.Tests.dll
+U:\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp2.1\GradeBook.Tests.pdb
+U:\gradebook\test\GradeBook.Tests\obj\Debug\netcoreapp2.1\GradeBook.Tests.csprojAssemblyReference.cache
+U:\gradebook\test\GradeBook.Tests\obj\Debug\netcoreapp2.1\GradeBook.Tests.csproj.CoreCompileInputs.cache
+U:\gradebook\test\GradeBook.Tests\obj\Debug\netcoreapp2.1\GradeBook.Tests.AssemblyInfoInputs.cache
+U:\gradebook\test\GradeBook.Tests\obj\Debug\netcoreapp2.1\GradeBook.Tests.AssemblyInfo.cs
+U:\gradebook\test\GradeBook.Tests\obj\Debug\netcoreapp2.1\GradeBook.Tests.dll
+U:\gradebook\test\GradeBook.Tests\obj\Debug\netcoreapp2.1\GradeBook.Tests.pdb
