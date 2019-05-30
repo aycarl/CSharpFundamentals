@@ -7,7 +7,7 @@ namespace GradeBook
     {
         public Book(string name)
         {
-            this.name = name;
+            Name = name;
             this.grades = new List<double>();
         }
 
@@ -35,7 +35,7 @@ namespace GradeBook
             grades.Add(grade);
         }
 
-        private string name;
+        public string Name;
         private List<double> grades;
 
 
