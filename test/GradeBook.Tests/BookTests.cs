@@ -5,6 +5,15 @@ namespace GradeBook.Tests
 {
     public class BookTests
     {
+        //test check is the grade entered is within the given range of grades
+        [Fact]
+        public void BookGradesAreWithinRange()
+        {
+            var book = new Book("");
+            book.AddGrade(100.0);
+            Assert.Contains(100.0, book.grades);
+        }
+        
         [Fact]
         public void BookCalculatesAnAverageGrade()
         {

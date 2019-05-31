@@ -5,6 +5,21 @@ namespace GradeBook.Tests
 {
     public class TypeTests
     {
+        [Fact]
+        public void StringsBehaveLikeValueTypes()
+        {
+            string name = "Carl";
+            var upper = MakeUpperCase(name);
+
+            Assert.Equal("CARL", upper);
+        }
+
+        private string MakeUpperCase(string parameter)
+        {
+            return parameter.ToUpper();
+        }
+
+
         //creating a test to prove that cSharp always passes by value
         [Fact]
         public void ValueTypesAlsoPassByValue()
