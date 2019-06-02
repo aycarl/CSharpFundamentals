@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cagbenyega\\.nuget\\packages\\": {},
+    "C:\\Users\\yao_c\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "U:\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+      "projectUniqueName": "C:\\Users\\yao_c\\Documents\\Sites\\CSharp\\CSharpFundamentals\\src\\GradeBook\\GradeBook.csproj",
       "projectName": "GradeBook",
-      "projectPath": "U:\\gradebook\\src\\GradeBook\\GradeBook.csproj",
-      "packagesPath": "C:\\Users\\cagbenyega\\.nuget\\packages\\",
-      "outputPath": "U:\\gradebook\\src\\GradeBook\\obj\\",
+      "projectPath": "C:\\Users\\yao_c\\Documents\\Sites\\CSharp\\CSharpFundamentals\\src\\GradeBook\\GradeBook.csproj",
+      "packagesPath": "C:\\Users\\yao_c\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yao_c\\Documents\\Sites\\CSharp\\CSharpFundamentals\\src\\GradeBook\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\cagbenyega\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yao_c\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

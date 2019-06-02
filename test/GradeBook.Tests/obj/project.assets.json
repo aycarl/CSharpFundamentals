@@ -5868,23 +5868,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cagbenyega\\.nuget\\packages\\": {},
+    "C:\\Users\\yao_c\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "U:\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\yao_c\\Documents\\Sites\\CSharp\\CSharpFundamentals\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
       "projectName": "GradeBook.Tests",
-      "projectPath": "U:\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
-      "packagesPath": "C:\\Users\\cagbenyega\\.nuget\\packages\\",
-      "outputPath": "U:\\gradebook\\test\\GradeBook.Tests\\obj\\",
+      "projectPath": "C:\\Users\\yao_c\\Documents\\Sites\\CSharp\\CSharpFundamentals\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+      "packagesPath": "C:\\Users\\yao_c\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yao_c\\Documents\\Sites\\CSharp\\CSharpFundamentals\\test\\GradeBook.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\cagbenyega\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yao_c\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5897,8 +5897,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "U:\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
-              "projectPath": "U:\\gradebook\\src\\GradeBook\\GradeBook.csproj"
+            "C:\\Users\\yao_c\\Documents\\Sites\\CSharp\\CSharpFundamentals\\src\\GradeBook\\GradeBook.csproj": {
+              "projectPath": "C:\\Users\\yao_c\\Documents\\Sites\\CSharp\\CSharpFundamentals\\src\\GradeBook\\GradeBook.csproj"
             }
           }
         }
