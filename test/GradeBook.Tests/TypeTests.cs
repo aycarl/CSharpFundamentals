@@ -3,8 +3,38 @@ using Xunit;
 
 namespace GradeBook.Tests
 {
+    public delegate string WriteLogDelegate(string logMessage);
+
+
     public class TypeTests
     {
+        int count = 0;
+
+        [Fact]
+        public void WriteLogDelegateCanPointToMethod()
+        {
+            WriteLogDelegate log = returnMessage;
+            log += returnMessage;
+            log += returnMessageToLower;
+            var result = log("Hello!");
+            
+            Assert.Equal(3, count);
+        }
+
+        string returnMessageToLower(string logMessage)
+        {
+            count++;
+            return logMessage.ToLower();
+        }
+
+        string returnMessage(string logMessage)
+        {
+            count++;
+            return logMessage;
+        }
+
+
+
         [Fact]
         public void StringsBehaveLikeValueTypes()
         {

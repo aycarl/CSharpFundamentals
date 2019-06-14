@@ -88,7 +88,7 @@ namespace GradeBook
         public List<double> grades;
 
         //name property can be publicly retrived but only privately edited
-        public string Name { get; private set;}
+        public string Name { get; set;}
 
 
     }
