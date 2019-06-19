@@ -9,7 +9,7 @@ namespace GradeBook.Tests
         [Fact]
         public void BookGradesAreWithinRange()
         {
-            var book = new Book("");
+            var book = new InMemoryBook("");
             book.AddGrade(100.0);
             Assert.Contains(100.0, book.grades);
         }
@@ -18,7 +18,7 @@ namespace GradeBook.Tests
         public void BookCalculatesAnAverageGrade()
         {
             //arrange section
-            var book = new Book("");
+            var book = new InMemoryBook("");
             book.AddGrade(89.1);
             book.AddGrade(90.5);
             book.AddGrade(77.3);

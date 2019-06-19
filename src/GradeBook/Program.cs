@@ -7,26 +7,43 @@ namespace GradeBook
     {
         static void Main(string[] args)
         {
-            var book = new Book("Carl's Grade Book");
+            IBook book = new DiskBook("Carl's Grade Book");
             book.GradeAdded += OnGradeAdded;
-            book.GradeAdded += OnGradeAdded;
-            book.GradeAdded -= OnGradeAdded;
-            book.GradeAdded += OnGradeAdded;
-            
+
 
             System.Console.WriteLine($"Welcome to {book.Name}");
-        
+
+            EnterGrades(book);
+
+            var stats = book.GetStatistics();
+
+            Console.WriteLine($"For the book named: {book.Name}");
+            Console.WriteLine($"The lowest grade is {stats.Low}");
+            Console.WriteLine($"The highest grade is {stats.High}");
+            Console.WriteLine($"The average grade is {stats.Average:N1}");
+            Console.WriteLine($"The letter grade is {stats.Letter}");
+
+        }
+
+        private static void EnterGrades(IBook book)
+        {
+            var enteredGrade = "";
             var grade = 0.0;
-            do 
+            do
             {
-                System.Console.WriteLine("Please enter a grade between 100 and 0 AND -1 to end:");
+                System.Console.WriteLine("Please enter a grade between 100 and q to quit:");
                 if (grade < 0)
                 {
                     break;
                 }
                 try
                 {
-                    grade = double.Parse(Console.ReadLine());
+                    enteredGrade = Console.ReadLine();
+                    if (enteredGrade == "q")
+                    {
+                        break;
+                    }
+                    grade = double.Parse(enteredGrade);
                     book.AddGrade(grade);
                 }
                 catch (ArgumentException ex)
@@ -42,16 +59,7 @@ namespace GradeBook
                     Console.WriteLine("**");
                 }
 
-            } while (grade != -1);
-            
-            var stats = book.GetStatistics();
-
-            Console.WriteLine($"For the book named: {book.Name}");
-            Console.WriteLine($"The lowest grade is {stats.Low}.");
-            Console.WriteLine($"The highest grade is {stats.High}.");
-            Console.WriteLine($"The average grade is {stats.Average:N1}");
-            Console.WriteLine($"The letter grade is {stats.Letter}");
-           
+            } while (true);
         }
 
         //an event handler that displays text when an event occursin the add grade method of a book

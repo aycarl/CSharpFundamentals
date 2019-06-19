@@ -152,27 +152,27 @@ namespace GradeBook.Tests
         }
 
         // method creates and returns a new Book instance and assings it a name from with the parameter "name"
-        Book GetBook(string name)
+        InMemoryBook GetBook(string name)
         {
-            return new Book(name);
+            return new InMemoryBook(name);
         }
 
         // method takes in a book object and a string and changes the name property of the book object to that of the provided string parameter
-        private void setName(Book book, string name)
+        private void setName(InMemoryBook book, string name)
         {
             book.Name = name;
         }
 
         //takes a book object & updates this book refence with a new book object with a name
-        private void GetBookSetName(Book book, string name)
+        private void GetBookSetName(InMemoryBook book, string name)
         {
-            book = new Book(name);
+            book = new InMemoryBook(name);
         }
 
         //takes a reference to a book & updates this book refence with a new book object with a name
-        private void GetBookSetName(ref Book book, string name)
+        private void GetBookSetName(ref InMemoryBook book, string name)
         {
-            book = new Book(name);
+            book = new InMemoryBook(name);
         }
     }
 }
