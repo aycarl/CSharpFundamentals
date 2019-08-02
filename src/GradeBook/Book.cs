@@ -87,7 +87,7 @@ namespace GradeBook
         public InMemoryBook(string name) : base(name)
         {
             Name = name;
-            this.grades = new List<double>();
+            grades = new List<double>();
         }
 
         public void AddGrade(char letter)
